@@ -1,5 +1,5 @@
+'use client';
 
-import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Brands from './components/Brands';
@@ -10,7 +10,7 @@ import Story from './components/Story';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-const App: React.FC = () => {
+export default function Home() {
   return (
     <>
       <Header />
@@ -26,6 +26,4 @@ const App: React.FC = () => {
       <Footer />
     </>
   );
-};
-
-export default App;
+}
